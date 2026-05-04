@@ -24,4 +24,9 @@ public:
     {
         return nim;
     }
+
+    Mahasiswa(string pnama) : nama(pnama)
+    {
+        setID();
+    };
 };
